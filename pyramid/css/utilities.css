@@ -87,6 +87,34 @@
     text-align: center;
 }
 
+code, 
+pre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+
 .flex {
     display: flex;
     justify-content: center;
